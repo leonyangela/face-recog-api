@@ -3,6 +3,8 @@
 Simple backend service for handling [**AI face detection**](https://github.com/leonyangela/face-recog) using the **Clarifai API**.  
 This server securely processes image URLs and returns face detection data to the frontend.
 
+Front end: https://github.com/leonyangela/face-recog
+
 ---
 
 ## Tech Stack
@@ -40,6 +42,7 @@ Server runs on http://localhost:your_port
 
 ## API Endpoint
 POST `/api/face-detection`
+
 Request
 ```
 {
